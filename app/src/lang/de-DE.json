@@ -1,0 +1,23 @@
+{
+  "main.map.error": "Karte derzeit nicht verfügbar",
+  "main.nav.map": "Karte",
+  "main.nav.account": "Konto",
+  "main.nav.history": "Geschichte",
+  "main.nav.fleet": "Flottenmanagement",
+  "main.nav.settings": "Einstellungen",
+  "main.nav.util.back": "Zurück",
+  "main.lang": "Sprache",
+  "main.lang.de": "Deutsch",
+  "main.lang.en": "Englisch",
+  "vehicles.list.available.title": "Verfügbare Fahrzeuge",
+  "vehicles.list.rent.title": "Dieses Fahrzeug mieten",
+  "vehicles.list.rent.buttons.primary": "Jetzt mieten",
+  "vehicles.booking.cta": "Jetzt mieten",
+  "vehicles.booking.details.with_end_date": "Mit Enddatum",
+  "vehicles.booking.details.header": "Jetzt mieten",
+  "vehicles.booking.details.date.start": "Startdatum",
+  "vehicles.booking.details.date.end": "Enddatum",
+  "vehicles.booking.details.date.duration": "Dauer (Tage)",
+  "history.table.start": "Start",
+  "history.table.stop": "Stop"
+}

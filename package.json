@@ -1,0 +1,10 @@
+{
+  "name": "carsharing-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start:prod --prefix ./api",
+    "build": "npm run build  --prefix ./app",
+    "heroku-postbuild": "npm i --prefix ./api",
+    "postinstall": "npm i --prefix ./app"
+  }
+}

@@ -1,0 +1,26 @@
+@import "@carbon/themes/scss/themes";
+
+$carbon--theme: $carbon--theme--g90;
+@include carbon--theme();
+
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.gm-style-cc {
+  display: none;
+}
+
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"],
+a[href^="https://www.google.com/maps"]
+{
+  display: none !important;
+}

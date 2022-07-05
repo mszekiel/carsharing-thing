@@ -1,0 +1,23 @@
+{
+  "main.map.error": "Map currently not available",
+  "main.nav.map": "Map",
+  "main.nav.account": "Account",
+  "main.nav.history": "History",
+  "main.nav.fleet": "Fleet management",
+  "main.nav.settings": "Settings",
+  "main.nav.util.back": "Back",
+  "main.lang": "Language",
+  "main.lang.de": "German",
+  "main.lang.en": "English",
+  "vehicles.list.available.title": "Available vehicles",
+  "vehicles.list.rent.title": "Rent this vehicle",
+  "vehicles.list.rent.buttons.primary": "Rent now",
+  "vehicles.booking.cta": "Rent now",
+  "vehicles.booking.details.with_end_date": "With end date",
+  "vehicles.booking.details.header": "Rent it now",
+  "vehicles.booking.details.date.start": "Start date",
+  "vehicles.booking.details.date.end": "End date",
+  "vehicles.booking.details.date.duration": "Duration (days)",
+  "history.table.start": "Start",
+  "history.table.stop": "Stop"
+}

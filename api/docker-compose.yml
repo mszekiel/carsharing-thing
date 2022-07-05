@@ -1,0 +1,31 @@
+services:
+  # main:
+  #   container_name: main
+  #   build:
+  #     context: .
+  #     target: development
+  #   volumes:
+  #     - .:/usr/src/app
+  #   ports:
+  #     - ${PORT}:${PORT}
+  #   command: npm run start:dev
+  #   env_file:
+  #     - .env
+  #   depends_on:
+  #     - postgres
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    ports:
+      - 5412:5432
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 2103:8080
